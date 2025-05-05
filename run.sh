@@ -1,9 +1,9 @@
 #!/bin/sh
-#exec ./cadical --target=0 --walk=false $1
+#exec ./cadical --psids=1 --target=2 --walk=false --chrono=true $1
 
 SBVA=./bva
 SOLVER=./cadical
-SOLVERARGS="target=0 walk=false"
+SOLVERARGS="psids=1 target=2 walk=false chrono=true"
 
 OUTER_TIMEOUT=400
 INNER_TIMEOUT=200
